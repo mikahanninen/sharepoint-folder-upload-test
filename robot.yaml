@@ -1,0 +1,12 @@
+tasks:
+  Test by Mika:
+    robotTaskName: Test Robot by Mika
+
+condaConfigFile: conda.yaml
+artifactsDir: output
+PATH:
+  - .
+PYTHONPATH:
+  - .
+ignoreFiles:
+  - .gitignore
