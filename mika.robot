@@ -50,7 +50,6 @@ Does Sharepoint Folder Exist
     RETURN    ${NONE}
 
 Upload Folder
-    ${TITLE}=    Get Title
     Sleep    3s
     ${folder}=    Does Sharepoint Folder Exist    ${SUBFOLDER}
     IF    ${folder}
